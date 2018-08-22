@@ -21,7 +21,7 @@ for x in range (1,f+1):
 print ('Sequência 1:', seq1)
 print ('Sequência 2:', seq2)
 
-for x in range (0,3):
+for x in range (0,f):
     soma.append ((seq1[x])+(seq2[x]))
 
 print ('Soma das sequências:', soma)
