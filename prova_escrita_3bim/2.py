@@ -16,6 +16,3 @@ for x in l1:
     if x == 2:
         qnt = qnt + 1
 print (qnt)
-
-
-#d
