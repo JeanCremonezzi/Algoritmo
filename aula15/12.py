@@ -1,6 +1,6 @@
 def verifica(a,b,c):
     nums = [a,b,c]
-    maior = 0
+    maior = nums[0]
     for x in nums:
         if x > maior:
             maior = x

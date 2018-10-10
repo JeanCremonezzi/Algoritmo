@@ -8,20 +8,20 @@ def random_elem (num):
             lista.append(aux)
     return lista
     
-def creat_list (l1,l2):
+def creat_list (l1,a):
     lista = []
-    for x in range(0,len(l1)):
-        soma = l1[x] + l2[x]  
-        lista.append(soma)
+    y = 0
+    for x in l1:
+        y = x * a
+        lista.append(y)
     return lista
 
 num = int(input("Quantidade de elementos das listas: "))
+mult = int(input("Multiplicador: "))
 
-l1= random_elem(num)
-l2= random_elem(num)
+l1= random_elem(num,mult)
 
-print (f"Lista 1: [{l1}")
-print (f"Lista 2: {l2}")
+print (f"Lista 1: {l1}")
 
-func_return = creat_list (l1,l2)
-print (f"Soma das Listas: {func_return}")
+func_return = creat_list (l1)
+print (f"Multiplicação da Lista: {func_return}")
